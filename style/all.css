@@ -102,7 +102,7 @@ footer {
 
 /* bg-img 背景影像 */
 .bg-img {
-    background-image: url("../img/bg-gradient.png");
+    background-image: url("../img/bg-gradient.jpg");
     background-size: cover;
     background-attachment: fixed;
 }

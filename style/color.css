@@ -1,0 +1,35 @@
+
+/* text color 字體顏色 */
+
+:root{
+
+    /* color-primary 主要色 */
+    --color-primary-default: #6900D3;
+    --color-primary-tint: #D0ACF5;
+    --color-primary-dark: #380070;
+    
+    /* color-bk 灰階色 */
+    --color-white: #FFFFFF;
+    --color-bk-5: #F2F2F2;
+    --color-bk-10: #E6E6E6;
+    --color-bk-20: #CCCCCC;
+    --color-bk-30: #B3B3B3;
+    --color-bk-40: #999999;
+    --color-bk-50: #808080;
+    --color-bk-60: #666666;
+    --color-bk-70: #4D4D4D;
+    --color-bk-80: #333333;
+    --color-bk-90: #1A1A1A;
+    --color-black: #000000;
+
+    /* color-warning 警告色 */
+    --color-warning-default: #E01E0C;
+    --color-warning-tint: #F5AAA3;
+    --color-warning-dark: #900C00;
+
+    /* color-success 成功色 */
+    --color-success-default: #00C261;
+    --color-success-tint: #9AF5C7;
+    --color-success-dark: #007038;
+
+}

@@ -38,6 +38,10 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
+    <!-- js -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script defer src="./js/index.js"></script>
+
 </head>
 
 <body class="bg-img">
@@ -47,7 +51,7 @@
             <a class="navi-logo" href="./index.html">
                 <img src="./img/logo.svg" alt="DesignCorner">
             </a>
-            <ul class="navi-ls">
+            <ul class="navi-ls" id="Navi-Ls">
                 <li class="navi-item">
                     <a href="./page/Resource.html" class="text-link">素材資源</a>
                 </li>
@@ -61,6 +65,12 @@
                     <a href="./page/Fonts.html" class="text-link">免費字型</a>
                 </li>
             </ul>
+            <div class="navi-button-menu" id="Navi-Btn-Menu">
+                <i class="ri-menu-line"></i>
+            </div>
+            <div class="navi-button-close" id="Navi-Btn-Close">
+                <i class="ri-close-large-line"></i>
+            </div>
         </div>
     </header>
 

@@ -1,12 +1,10 @@
-$('#Navi-Ls').hide()
-
 $('#Navi-Btn-Menu').click(function(){
     $(this).hide();
     $('#Navi-Btn-Close').show();
-    $('#Navi-Ls').slideDown(500)
+    $('#Navi-Ls').addClass('navi-ls-show')
 })
 $('#Navi-Btn-Close').click(function(){
     $(this).hide();
     $('#Navi-Btn-Menu').show();
-    $('#Navi-Ls').slideUp(500)
+    $('#Navi-Ls').removeClass('navi-ls-show')
 })

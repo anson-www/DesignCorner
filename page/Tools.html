@@ -38,6 +38,10 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 
+    <!-- js -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script defer src="../js/index.js"></script>
+
 </head>
 
 <body class="bg-img">
@@ -47,7 +51,7 @@
             <a class="navi-logo" href="../index.html">
                 <img src="../img/logo.svg" alt="DesignCorner">
             </a>
-            <ul class="navi-ls">
+            <ul class="navi-ls" id="Navi-Ls">
                 <li class="navi-item">
                     <a href="./Resource.html" class="text-link">素材資源</a>
                 </li>
@@ -61,6 +65,14 @@
                     <a href="./Fonts.html" class="text-link">免費字型</a>
                 </li>
             </ul>
+            <div class="navi-button" id="Navi-Btn">
+                <div class="navi-button-menu" id="Navi-Btn-Menu">
+                    <i class="ri-menu-line"></i>
+                </div>
+                <div class="navi-button-close" id="Navi-Btn-Close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -119,7 +131,7 @@
                                         <img src="../img/page-tool/design-04-Blender.webp" alt="Blender">
                                     </div>
                                     <h3>Blender</h3>
-                                    <p>免費且開源的3D建模軟體</p>
+                                    <p>免費開源的 3D 建模軟體</p>
                                 </a>
                             </div>
 

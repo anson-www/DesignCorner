@@ -446,9 +446,8 @@ footer {
 .tab-area {
     width: 100%;
     height: fit-content;
-    position: absolute;
-    left: 0;
-    display: none;
+    flex-direction: column;
+    align-items: center;
     z-index: 1;
     padding-left: var(--spacing-40);
     padding-right: var(--spacing-40);
@@ -456,7 +455,7 @@ footer {
 
 .tab-content {
     margin-top: var(--spacing-40);
-    /* margin-bottom: var(--spacing-40); */
+    margin-bottom: var(--spacing-40);
     padding-top: var(--spacing-40);
     padding-bottom: var(--spacing-40);
     padding-left: var(--spacing-40);
@@ -469,24 +468,22 @@ footer {
     z-index: 1;
 }
 
+.tab-content-show {
+    display: block;
+}
+
 .tab-status {
     display: none;
 }
 
-.tab-area footer {
-    margin-top: var(--spacing-80);
-}
 
 .tab-status:checked+label {
     opacity: 1;
     color: #6900D3;
 }
 
-.tab-status:checked+label+.tab-area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
+
 
 /* gallery 圖庫 */
 .gallery {
@@ -650,6 +647,7 @@ footer {
     font-size: 14px;
     padding-left: var(--spacing-80);
     padding-right: var(--spacing-80);
+    margin-top: var(--spacing-80);
 }
 
 footer::after {

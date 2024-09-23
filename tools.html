@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- HTML Meta Tags -->
+    <title>工具軟體｜DesignCorner 設計角落</title>
+    <meta name="description" content="設計師的小角落，提供設計愛好者精選實用資源">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://sungwsc.github.io/DesignCorner/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DesignCorner 設計角落">
+    <meta property="og:description" content="設計師的小角落，提供設計愛好者精選實用資源">
+    <meta property="og:image" content="https://raw.githubusercontent.com/SungWSC/DesignCorner/main/img/thumbnail.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="sungwsc.github.io">
+    <meta property="twitter:url" content="https://sungwsc.github.io/DesignCorner/">
+    <meta name="twitter:title" content="DesignCorner 設計角落">
+    <meta name="twitter:description" content="設計師的小角落，提供設計愛好者精選實用資源">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/SungWSC/DesignCorner/main/img/thumbnail.jpg">
+
+    <!-- reset css -->
+    <link rel="stylesheet" href="./style/reset.css">
+
+    <!-- Remix icon https://remixicon.com/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css">
+
+    <!-- style -->
+    <link rel="stylesheet" href="./style/all.css">
+    <link rel="stylesheet" href="./style/animate.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- js -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script defer src="./js/index.js"></script>
+
+</head>
+
+<body class="bg-img">
+
+    <header>
+        <div class="navi fixed-top">
+            <a class="navi-logo" href="./index.html">
+                <img src="./img/logo.svg" alt="DesignCorner">
+            </a>
+            <ul class="navi-ls" id="Navi-Ls">
+                <li class="navi-item">
+                    <a href="./resource.html" class="text-link">素材資源</a>
+                </li>
+                <li class="navi-item">
+                    <a href="./inspiration.html" class="text-link">設計靈感</a>
+                </li>
+                <li class="navi-item">
+                    <a href="./tools.html" class="text-link">工具軟體</a>
+                </li>
+                <li class="navi-item">
+                    <a href="./fonts.html" class="text-link">免費字型</a>
+                </li>
+            </ul>
+            <div class="navi-button" id="Navi-Btn">
+                <div class="navi-button-menu" id="Navi-Btn-Menu">
+                    <i class="ri-menu-line"></i>
+                </div>
+                <div class="navi-button-close" id="Navi-Btn-Close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <img class="bg-star-tint ani-rolling-l" src="./img/Star-PurpleTint.svg" alt="">
+
+    <div class="container mx-auto fade-in">
+
+        <div class="page-intro">
+            <h2 class="page-intro-title">工具軟體</h2>
+            <p class="page-intro-text">各式軟體與輔助設計流程的相關工具資源</p>
+        </div>
+
+        <div class="tab">
+
+            <div class="tab-button">
+                <input type="radio" class="tab-status" name="tab" id="Design" checked>
+                <label for="Design">設計繪圖</label>
+            </div>
+
+            <div class="tab-button">
+                <input type="radio" class="tab-status" name="tab" id="UIUX">
+                <label for="UIUX">UI / UX</label>
+            </div>
+
+            <div class="tab-button">
+                <input type="radio" class="tab-status" name="tab" id="Video">
+                <label for="Video">影片輔助</label>
+            </div>
+
+            <div class="tab-button">
+                <input type="radio" class="tab-status" name="tab" id="image">
+                <label for="image">圖像輔助</label>
+            </div>
+
+            <div class="tab-button">
+                <input type="radio" class="tab-status" name="tab" id="color">
+                <label for="color">色彩輔助</label>
+            </div>
+
+        </div>
+
+        <div class="tab-area">
+
+            <!-- 設計繪圖 -->
+            <div class="tab-content tab-content-show">
+                <div class="gallery">
+
+                    <div class="gallery-card">
+                        <a href="https://procreate.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/design-01-Procreate.webp" alt="Procreate">
+                            </div>
+                            <h3>Procreate</h3>
+                            <p>最多人使用的Ipad繪圖工具</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.adobe.com/tw/products/photoshop.html" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/design-02-Photoshop.webp" alt="Adobe Photoshop">
+                            </div>
+                            <h3>Adobe Photoshop</h3>
+                            <p>強大的圖像編輯軟體，廣泛應用於照片修飾、圖形設計和數位藝術創作</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.adobe.com/tw/products/illustrator.html" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/design-03-Illustrator.webp" alt="Adobe Illustrator">
+                            </div>
+                            <h3>Adobe Illustrator</h3>
+                            <p>最多人使用且知名的向量圖形編輯軟體</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.blender.org/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/design-04-Blender.webp" alt="Blender">
+                            </div>
+                            <h3>Blender</h3>
+                            <p>免費開源的 3D 建模軟體</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.canva.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/design-05-Canva.webp" alt="Canva">
+                            </div>
+                            <h3>Canva</h3>
+                            <p>線上設計工具，模板豐富且簡單好上手</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.c4d.com.tw/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/design-06-Cinema4D.webp" alt="CINEMA 4D">
+                            </div>
+                            <h3>CINEMA 4D</h3>
+                            <p>專業的3D建模、動畫、渲染軟體</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- UI/UX -->
+            <div class="tab-content">
+                <div class="gallery">
+
+                    <div class="gallery-card">
+                        <a href="https://www.figma.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/uiux-01-Figma.webp" alt="Figma">
+                            </div>
+                            <h3>Figma</h3>
+                            <p>UI/UX 設計與原型製作的線上介面設計工具</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.invisionapp.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/uiux-02-Invision.webp" alt="invision">
+                            </div>
+                            <h3>invision</h3>
+                            <p>用於 UI/UX 設計原型和協作的線上工具</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://whimsical.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/uiux-03-Whimsical.webp" alt="Whimsical">
+                            </div>
+                            <h3>Whimsical</h3>
+                            <p>流程圖、Wireframe、Prototype 等內容的專業實用繪製工具，現也支援 AI 功能</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.protopie.io/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/uiux-04-ProtoPie.webp" alt="ProtoPie">
+                            </div>
+                            <h3>ProtoPie</h3>
+                            <p>創建逼真 Prototype 原型的設計工具</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://webflow.com" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/uiux-05-Webflow.webp" alt="Webflow">
+                            </div>
+                            <h3>Webflow</h3>
+                            <p>no-code 網頁設計工具，不用代碼完成精緻網站</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.framer.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/uiux-06-Framer.webp" alt="Framer">
+                            </div>
+                            <h3>Framer</h3>
+                            <p>結合 Figma 與 webflow 特點的 no-code 網頁製作工具</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.relume.io" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/uiux-07-Relume.webp" alt="Relume">
+                            </div>
+                            <h3>Relume</h3>
+                            <p>透過 AI 快速產出 Sitemap 並生成 Wireframe 的強大網頁設計輔助工具</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.sketch.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/uiux-08-Sketch.webp" alt="Sketch">
+                            </div>
+                            <h3>Sketch</h3>
+                            <p>老牌的 UI設計工具</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 影片輔助 -->
+            <div class="tab-content">
+                <div class="gallery">
+
+                    <div class="gallery-card">
+                        <a href="https://www.capcut.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/video-01-Capcut.webp" alt="剪映 Capcut">
+                            </div>
+                            <h3>剪映 Capcut</h3>
+                            <p>方便好用的剪輯工具，適合沒有剪輯基礎的人使用</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://runwayml.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/video-02-Runway.webp" alt="Runway">
+                            </div>
+                            <h3>Runway</h3>
+                            <p>AI 生成與編輯圖片、影片的工具</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://aegisub.org/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/video-03-Aegisub.webp" alt="Aegisub">
+                            </div>
+                            <h3>Aegisub</h3>
+                            <p>免費開源的字幕編輯器</p>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- 圖像輔助 -->
+            <div class="tab-content">
+                <div class="gallery">
+
+                    <div class="gallery-card">
+                        <a href="https://www.remove.bg/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/image-01-removebg.webp" alt="removebg">
+                            </div>
+                            <h3>removebg</h3>
+                            <p>好用的線上去背工具</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://playground.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/image-02-Playground.webp" alt="Playground">
+                            </div>
+                            <h3>Playground</h3>
+                            <p>一款可以共同編輯的 AI 圖片生成工具</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://leonardo.ai/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/image-03-LeonardoAi.webp" alt="Leonardo.Ai">
+                            </div>
+                            <h3>Leonardo.Ai</h3>
+                            <p>結合 AI 技術的圖像創作和設計工具，提供如圖像生成、填色和風格轉換等多種功能</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://firefly.adobe.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/image-04-AdobeFirefly.webp" alt="Adobe Firefly">
+                            </div>
+                            <h3>Adobe Firefly</h3>
+                            <p>Adobe 推出的 AI 圖像處理工具，提供文字生成圖片、相片填色、向量圖上色等多種功能</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.midjourney.com/home/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/image-05-Midjourney.webp" alt="Midjourney">
+                            </div>
+                            <h3>Midjourney</h3>
+                            <p>基於 AI 技術的圖像生成工具網站，可選風格、顏色等，並自由定制圖像大小和解析度</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://designer.microsoft.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/image-06-MicrosoftDesigner.webp" alt="Microsoft Designer">
+                            </div>
+                            <h3>Microsoft Designer</h3>
+                            <p>利用 AI 快速生成多種風格設計素材，並可輕鬆調整這些素材的顏色、大小和形狀等參數</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 色彩輔助 -->
+            <div class="tab-content">
+                <div class="gallery">
+
+                    <div class="gallery-card">
+                        <a href="https://aicolors.co/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/color-01-AIColor.webp" alt="AI Colors">
+                            </div>
+                            <h3>AI Colors</h3>
+                            <p>形容顏色的一段文字生成符合之風格UI配色</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://colormixer.web.app/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/color-02-ParametricColorMixer.webp" alt="Parametric Color Mixer">
+                            </div>
+                            <h3>Parametric Color Mixer</h3>
+                            <p>一款能產生高度客製化色階及色票的工具</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://www.supa-palette.com/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/color-03-Supa-Palette.webp" alt="Supa Palette">
+                            </div>
+                            <h3>Supa Palette</h3>
+                            <p>專業且強大的 Figma 色彩管理工具插件</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://csshero.org/mesher/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/color-04-mesher.webp" alt="Mesher">
+                            </div>
+                            <h3>Mesher</h3>
+                            <p>製作美麗的 CSS 任意形狀漸層背景</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://colorhunt.co/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/color-05-colorhunt.webp" alt="Colorhunt">
+                            </div>
+                            <h3>Colorhunt</h3>
+                            <p>可根據情境名稱選擇色彩搭配</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://color.adobe.com/zh/create/color-wheel" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/color-06-adobecolor.webp" alt="Adobe Color">
+                            </div>
+                            <h3>Adobe Color</h3>
+                            <p>Adobe 推出的專業配色靈感工具</p>
+                        </a>
+                    </div>
+
+                    <div class="gallery-card">
+                        <a href="https://coolors.co/" target="_blank">
+                            <div class="img-inner">
+                                <img src="./img/page-tool/color-07-coolors.webp" alt="Coolors">
+                            </div>
+                            <h3>Coolors</h3>
+                            <p>按下空白鍵隨機產出五種色彩組合</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <a href="#" class="top-button">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <footer></footer>
+
+</body>
+
+</html>

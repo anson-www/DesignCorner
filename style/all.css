@@ -115,7 +115,7 @@ p {
 .text-link {
     text-decoration: none;
     color: var(--color-bk-90);
-    font-weight: semibold;
+    font-weight: 600;
 }
 
 .text-link:hover {
@@ -260,14 +260,14 @@ p {
 .kv-intro-title {
     font-size: var(--title-size-xl);
     line-height: var(--line-height-title);
-    font-weight: bold;
+    font-weight: 600;
     color: white;
 }
 
 .kv-intro-subtitle {
     font-size: var(--title-size-md);
     line-height: var(--line-height-title);
-    font-weight: bold;
+    font-weight: 600;
     color: white;
 }
 
@@ -329,7 +329,7 @@ p {
 
 .entry-title {
     font-size: var(--title-size-nm);
-    font-weight: semibold;
+    font-weight: 600;
     color: var(--color-bk-80);
     line-height: var(--line-height-title);
     margin-top: var(--spacing-08);
@@ -361,7 +361,7 @@ p {
 
 .page-intro-title {
     font-size: var(--title-size-lg);
-    font-weight: bold;
+    font-weight: 600;
     line-height: 1.2;
 }
 
@@ -393,7 +393,7 @@ p {
     align-items: center;
     text-wrap: nowrap;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 600;
     color: #333;
 }
 
@@ -437,7 +437,7 @@ p {
     justify-content: center;
     align-items: center;
     font-size: var(--title-size-sm);
-    font-weight: semibold;
+    font-weight: 600;
     color: #1a1a1a;
     opacity: .75;
     cursor: pointer;
@@ -578,7 +578,7 @@ p {
 
 .gallery-card h3 {
     font-size: var(--title-size-nm);
-    font-weight: bold;
+    font-weight: 600;
     line-height: var(--line-height-title);
     margin-top: var(--spacing-16);
 }
@@ -918,7 +918,7 @@ footer::after {
         width: 72px;
         height: 24px;
         font-size: var(--text-size-sm);
-        font-weight: semibold;
+        font-weight: 600;
         opacity: .85;
     }
     .tab-button+.tab-button>label {

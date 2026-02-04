@@ -95,6 +95,10 @@ footer {
     z-index: 10;
 }
 
+p {
+    letter-spacing: 0.02em;
+}
+
 ::selection {
     color: #fff;
     background-color: #6900D3;
@@ -111,7 +115,7 @@ footer {
 .text-link {
     text-decoration: none;
     color: var(--color-bk-90);
-    font-weight: bold;
+    font-weight: semibold;
 }
 
 .text-link:hover {
@@ -325,7 +329,7 @@ footer {
 
 .entry-title {
     font-size: var(--title-size-nm);
-    font-weight: bold;
+    font-weight: semibold;
     color: var(--color-bk-80);
     line-height: var(--line-height-title);
     margin-top: var(--spacing-08);
@@ -433,7 +437,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: var(--title-size-sm);
-    font-weight: bold;
+    font-weight: semibold;
     color: #1a1a1a;
     opacity: .75;
     cursor: pointer;
@@ -914,7 +918,7 @@ footer::after {
         width: 72px;
         height: 24px;
         font-size: var(--text-size-sm);
-        font-weight: bold;
+        font-weight: semibold;
         opacity: .85;
     }
     .tab-button+.tab-button>label {

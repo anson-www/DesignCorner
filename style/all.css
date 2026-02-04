@@ -20,6 +20,18 @@
     --text-size-sm: 12px;
     --text-size-xs: 10px;
 
+    /* font-weight 字重 */
+    --font-weight-thin:100;
+    --font-weight-extraLight:200;
+    --font-weight-light:300;
+    --font-weight-normal:350;
+    --font-weight-regular:400;
+    --font-weight-medium:500;
+    --font-weight-demibold:550;
+    --font-weight-semibold:600;
+    --font-weight-bold:700;
+    --font-weight-heavy:900;
+
     /* line-height 行高 */
     --line-height-title: 1.2;
     --line-height-text: 1.5;
@@ -96,6 +108,7 @@ footer {
 }
 
 p {
+    font-weight: var(--font-weight-normal);
     letter-spacing: 0.02em;
 }
 
@@ -115,7 +128,7 @@ p {
 .text-link {
     text-decoration: none;
     color: var(--color-bk-90);
-    font-weight: 600;
+    font-weight: var(--font-weight-demibold);
 }
 
 .text-link:hover {
@@ -260,14 +273,14 @@ p {
 .kv-intro-title {
     font-size: var(--title-size-xl);
     line-height: var(--line-height-title);
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
     color: white;
 }
 
 .kv-intro-subtitle {
     font-size: var(--title-size-md);
     line-height: var(--line-height-title);
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
     color: white;
 }
 
@@ -329,7 +342,7 @@ p {
 
 .entry-title {
     font-size: var(--title-size-nm);
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     color: var(--color-bk-80);
     line-height: var(--line-height-title);
     margin-top: var(--spacing-08);
@@ -361,7 +374,7 @@ p {
 
 .page-intro-title {
     font-size: var(--title-size-lg);
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     line-height: 1.2;
 }
 
@@ -393,7 +406,7 @@ p {
     align-items: center;
     text-wrap: nowrap;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     color: #333;
 }
 
@@ -437,7 +450,7 @@ p {
     justify-content: center;
     align-items: center;
     font-size: var(--title-size-sm);
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     color: #1a1a1a;
     opacity: .75;
     cursor: pointer;
@@ -578,7 +591,7 @@ p {
 
 .gallery-card h3 {
     font-size: var(--title-size-nm);
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     line-height: var(--line-height-title);
     margin-top: var(--spacing-16);
 }
@@ -918,7 +931,7 @@ footer::after {
         width: 72px;
         height: 24px;
         font-size: var(--text-size-sm);
-        font-weight: 600;
+        font-weight: var(--font-weight-semibold);
         opacity: .85;
     }
     .tab-button+.tab-button>label {
